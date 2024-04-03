@@ -88,7 +88,6 @@ namespace EduInstitutesApp.Pages
                         Selected = false
                     });
             }
-            MessageBox.Show(servicesItems.Count.ToString());
             ComboServices.ItemsSource = null;
             ComboServices.ItemsSource = servicesItems;
 
